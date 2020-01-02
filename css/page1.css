@@ -1,0 +1,44 @@
+/* page2.css */
+#comapany {
+position: relative;
+float: right;
+}
+
+#company_intro1 {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 20px;
+    
+}
+#company_intro1 a {
+    float: right;
+    width: 600px; height: 300px;
+    margin-right: 20px;
+    margin-top: 30px;
+    text-align: left;
+    }
+
+#comaplay_intro2  {
+    float: right;
+       
+}
+
+#company_intro2 a {
+    float: left;
+    width: 680px; height: 300px;    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#company_intro3 {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+#company_intro3 a {
+    float: right;
+    width: 600px; height: 300px;
+    margin-right: 20px;
+    margin-top: 20px;
+    }
+
