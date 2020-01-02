@@ -1,0 +1,55 @@
+/* page3.css */
+
+#page_banner{
+    width: 100%;
+    height: 400px;
+    margin: 0 auto;
+    background-image: url('http://placehold.it/1920x400');
+    background-size: cover;
+    background-position: center;
+}
+#directions h1{
+    text-align: center;
+    /* padding: 50px; */
+    margin-top: 100px;
+    padding-bottom: 20px;
+}
+#directions .line{
+    border-bottom: 3px solid #959595;
+    height: 4px;
+    width: 50px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.map_info{
+    background: #f2f3f4;
+    overflow: hidden;
+    padding: 0 20px;
+    margin-top: -5px;
+    padding-bottom: 80px;
+}
+
+.map_info .info_box:nth-child(2){
+    margin: 50px 4.7%;
+}
+.map_info .info_box:last-child{
+    float: right;
+}
+.map_info .info_box{
+    float: left;
+    background: #fff;
+    border-radius: 10px;
+    margin-top: 50px;
+    width: 350px;
+    height: auto;
+    /* position: relative; */
+    text-align: center;
+    padding: 40px 0;
+    box-shadow: 0px 0px 12px #CCC;
+}
+.map_info .info_box img{
+    margin-bottom: 20px;
+}
+.map_info .info_box p{
+    padding: 10px;
+}
