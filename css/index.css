@@ -1,0 +1,129 @@
+/* index.css */
+
+/* contents */
+#contents{
+    width: 1200px;
+    height: 650px;
+    background: #ccc;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+/* left */
+#contents{
+    position: relative;
+}
+#contents .left{
+    width: 600px;
+    height: 650px;
+    outline: 1px solid blue;
+    float: left;
+}
+#contents .left li{
+    float: left;
+    outline: 1px solid red;
+    width: 300px;
+    height: 246px;
+}
+#contents .left li:first-child{
+    width: 600px;
+    height: 404px;
+}
+#contents h2,.left p, .right p{
+    color: #fff;
+    margin: 20px 30px;
+}
+.left p{
+    margin-bottom: 10px;
+}
+.time p{
+    margin: 0 30px;
+    width: 270px;
+    padding: 25px;
+    background: #4e4e44;
+    line-height: 2.2em;
+}
+
+#contents .left .accept{
+    position: absolute;
+    bottom: 260px;
+    margin: 15px 30px;
+    border: 2px solid #000;
+    padding: 5px 20px;
+}
+
+#contents .red{
+    color: red;
+}
+
+#contents .btn{
+    position: absolute;
+    color: #fff;
+    right: 630px;
+    bottom: 10px;
+    font-size: 2.2em;
+}
+#contents .medi{
+    font-size: 2em;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+
+#contents a{
+    color: #fff;
+}
+
+
+/* right */
+#contents .right{
+    width: 600px;
+    height: 650px;
+    outline: 1px solid blue;
+    float: left;
+}
+#contents .right li{
+    float: left;
+    outline: 1px solid red;
+    width: 300px;
+    height: 246px;
+}
+#contents .right li:last-child{
+    width: 600px;
+    height: 404px;
+}
+
+/* sub_banner */
+#sub_banner{
+    margin-top: 70px;
+    margin-bottom: 35px;
+    background: #ccc;
+    width: 1200px;
+    height: 350px;
+    text-align: center;
+}
+
+#sub_banner h2{
+   padding-top: 95px;
+   margin-bottom: 8px;
+}
+#sub_banner p{
+    margin-bottom: 35px;
+}
+#sub_banner a{
+    border: 2px solid #444;
+    padding: 5px 25px;
+}
+
+
+.swiper-container {
+    width: 1200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+  }

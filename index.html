@@ -7,8 +7,8 @@
     <title>해마루 동물병원</title>
     <!-- font family -->
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap" rel="stylesheet">
-    <!-- bxslider CSS -->
-    <link rel="stylesheet" href="js/bxslider/jquery.bxslider.min.css">
+    <!-- swiper.css -->
+    <link rel="stylesheet" href="package/css/swiper.min.css">
 
     <!-- 공통 CSS -->
     <link rel="stylesheet" href="css/common.css">
@@ -17,31 +17,70 @@
     
     <!-- 제이쿼리 -->
     <script src="js/jquery-3.4.1.min.js"></script>
-    <!-- bxslider -->
-    <script src="js/bxslider/jquery.bxslider.min.js"></script>
+    <!-- swiper.js -->
+    <script src="package/js/swiper.min.js"></script>
     <!-- 이미지 로드  -->
     <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
 
     <!-- 사용자 자바스크립트 -->
+    <script src="js/main.js"></script>
 </head>
 <body>
+
     <!-- main_header -->
     <div class="header_wrap">
         <header id="main_header">
-            <h1>해마루</h1>
-            <!-- (주)해마루는 참된 생명존중을 바탕으로 최상의 진료, 연구, 교육을 실현하여 동물과 함께하는 행복한 세상을 만든다는 마음가짐으로 최선을 다하고 있습니다. -->
+            <h1><a href="index.html">해마루</a></h1>
+            <div class="depth2_bg"></div>
             <nav id="main_gnb">
-                <ul>
-                    <li><a href="#">병원소개</a></li>
-                    <li><a href="#">진료안내</a></li>
-                    <li><a href="#">질병안내</a></li>
-                    <li><a href="#">커뮤니티</a></li>
-                    <li><a href="#">오시는 길</a></li>
+                <ul class="depth1">
+                    <li><a href="#">병원소개</a>
+                        <ul class="depth2">
+                            <li><a href="page1.html">해마루 소개</a></li>
+                            <li><a href="#">의료진 소개</a></li>
+                            <li><a href="#">의료시간 안내</a></li>
+                            <li><a href="#">병원 둘러보기</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">진료안내</a>
+                        <ul class="depth2">
+                            <li><a href="#">접수 및 절차 안내</a></li>
+                            <li><a href="page2.html">진료과목 안내</a></li>
+                            <li><a href="#">영상의학과</a></li>
+                            <li><a href="#">외과</a></li>
+                            <li><a href="#">내과</a></li>
+                            <li><a href="#">안과</a></li>
+                            <li><a href="#">치과</a></li>
+                            <li><a href="#">종합건강검진</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">진료시설</a>
+                        <ul class="depth2">
+                            <li><a href="#">시설 소개</a></li>
+                            <li><a href="#">의료장비 소개</a></li>
+                            <li><a href="#">24시간 응급진료</a></li>
+                            <li><a href="#">중증 외상 센터</a></li>
+                            <li><a href="#">입원치료</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">커뮤니티</a>
+                        <ul class="depth2">
+                            <li><a href="#"></a>공지사항</a></li>
+                            <li><a href="#"></a>FAQ</a></li>
+                            <li><a href="#"></a>1:1 온라인 상담</a></li>
+                            <li><a href="#"></a>진료후기</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="page3.html">오시는 길</a>
+                        <ul class="depth2" id="hiden">
+                            <li>공지사항</li>
+                            <li>FAQ</li>
+                            <li>1:1 온라인 상담</li>
+                            <li>진료후기</li>
+                        </ul>
+                    </li>
                 </ul>
             </nav>
-            <div id="category_menu">
-                
-            </div>
         </header>
     </div>
     <div id="main_visual">
@@ -52,39 +91,100 @@
     <section id="contents">
         <div class="container">
             <ul class="left">
-                <li><a href="#">특화진료센터</a></li>
-                <li><a href="#">24시간 응급실</a></li>
-                <li><a href="#">입원 안심케어</a></li>
+                <li>
+                    <h2>진료안내</h2>
+                    <p>진료의뢰 전에 꼭 먼저 확인해주세요!</p>
+                    <div class="time">
+                        <p>
+                        평일, 토요일: AM 10:00 ~ PM 6:00 <br>
+                        <span class="red">일요일, 공휴일: 휴무</span><br>
+                        문의전화: 031 - 781 - 2992
+                        </p>
+                    </div>
+                    <a href="#" class="accept">+&nbsp;&nbsp;&nbsp;접수/절차안내</a></li>
+                <li>
+                    <h2>응급진료 <br> 연중24시간</h2>
+                    <p>야간에 응급상황이 발생해도<br>당황하지 마세요</p>
+                </li>
+                <li>
+                    <h2>오시는길</h2>
+                    <p>해마루 동물병원에 어서오세요!</p>
+                    <a href="#" class="btn">+</a>
+                </li>
             </ul >
             <ul class="right">
-                <li><a href="#">24시 의료진</a></li>
-                <li><a href="#">첨단 의료장비</a></li>
-                <li><a href="#">건강검진센터</a></li>
+                <li>
+                    <h2><a href="#">멍냥응급키트 출시!</a></h2>
+                    <p>반려동물 가정의 필수품!</p>
+                </li>
+                <li>
+                    <h2><a href="#">첨단 의료장비</a></h2>
+                    <p>국내 동물병원 최초<br>프리미엄급 초음파기 도입</p>
+                </li>
+                <li>
+                    <h2 class="medi"><a href="#">건강검진센터</a></h2>
+                </li>
             </ul>
         </div>
     </section>
     <section id="sub_banner">
         <div class="container">
             <h2>아이를 안심하고 맡겨도 될 지<br>걱정이신가요?</h2>
-            <a href="#">시설 및 병원 전경</a>
-            <a href="#">보유 의료장비 소개</a>
+            <p>응급진료 연중 24시간</p>
+            <a href="#">시설 및 병원 전경 &nbsp;&nbsp;&nbsp;&nbsp; +</a>
+            <a href="#">보유 의료장비 소개 &nbsp;&nbsp;&nbsp;&nbsp; +</a>
         </div>
     </section>
-    <section id="video_list">
-        <div class="container">
-            <h2><img src="images/insta.png" alt=""></h2>
-            <div class="slider">
-                <img src="http://placehold.it/210x200" alt="1">
-                <img src="http://placehold.it/210x200" alt="1">
-                <img src="http://placehold.it/210x200" alt="1">
-                <img src="http://placehold.it/210x200" alt="1">
-                <!-- <img src="http://placehold.it/210x200" alt="1">
-                <img src="http://placehold.it/210x200" alt="1">
-                <img src="http://placehold.it/210x200" alt="1">
-                <img src="http://placehold.it/210x200" alt="1"> -->
-            </div>
-        </div>
-    </section>
+
+    <!-- doc -->
+     <!-- Swiper -->
+    <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide" style="background-image:url(./images/nature-1.jpg)"></div>
+      <div class="swiper-slide" style="background-image:url(./images/nature-2.jpg)"></div>
+      <div class="swiper-slide" style="background-image:url(./images/nature-3.jpg)"></div>
+      <div class="swiper-slide" style="background-image:url(./images/nature-4.jpg)"></div>
+      <div class="swiper-slide" style="background-image:url(./images/nature-5.jpg)"></div>
+      <div class="swiper-slide" style="background-image:url(./images/nature-6.jpg)"></div>
+      <div class="swiper-slide" style="background-image:url(./images/nature-7.jpg)"></div>
+      <div class="swiper-slide" style="background-image:url(./images/nature-8.jpg)"></div>
+      <div class="swiper-slide" style="background-image:url(./images/nature-9.jpg)"></div>
+      <div class="swiper-slide" style="background-image:url(./images/nature-1.jpg0)"></div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+
     
+    <!-- footer -->
+    <div class="footer_wrap">
+        <footer id="main_footer">
+            <h1>해마루</h1>
+            <ul class="f_info">
+                <li>Info</li>
+                <li>원장 : 김현욱</li>
+                <li>업체명 : (주)해마루 동물병원</li>
+                <li>사업자 등록번호 : 422-30-00401</li>
+            </ul>
+            <ul  class="f_info">
+                <li>Contact us</li>
+                <li>031 - 781 - 2992</li>
+                <li>FAX : 031 - 781 - 2993</li>
+                <li>help@haemaru.co.kr</li>
+            </ul>
+            <ul  class="f_info">
+                <li>Social</li>
+                <li><a href="#"><img src="http://placehold.it/30x30" alt=""></a></li>
+                <li><a href="#"><img src="http://placehold.it/30x30" alt=""></a></li>
+                <li><a href="#"><img src="http://placehold.it/30x30" alt=""></a></li>
+                <li><a href="#"><img src="http://placehold.it/30x30" alt=""></a></li>
+            </ul>
+        </footer>
+    </div>
+    <div class="b_footer">
+        <address>경기도 성남시 분당구 황새울로 319번길 8-6 수의과학회관 1~3층</address>
+        <p>TEL. 031 - 781 - 2992 | 개인정보 취급방침 | 이메일 무단수집거부 | FAX. 031 - 781 - 2993</p>
+        <p class="copyright">Copyright &copy; 2016 HAEMARU Referral Animal Hospital All rights Reserved.</p>
+    </div>
 </body>
 </html>

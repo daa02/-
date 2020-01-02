@@ -221,3 +221,8 @@ address {
     padding-top: 5px;
     font-size: 14px;
 }
+
+#hiden{
+    cursor: default;
+    opacity: 0;
+}
