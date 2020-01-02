@@ -31,7 +31,7 @@ body {
     height: 100%;
     margin: 0 auto;
     overflow: hidden;
-    outline: 1px solid red;
+    /* outline: 1px solid red;s */
 }
 
 section {
@@ -51,7 +51,12 @@ section {
     width: 100%;
     z-index: 99;
     height: 70px;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
+    transition: .4s;
+}
+
+.header_wrap.show{
+    background: #fff;
 }
 .header_wrap.nav_bg{
     background: #fff;
@@ -59,9 +64,8 @@ section {
 #main_header {
     width: 1200px;
     margin: 0 auto;
-    border-bottom: 1px solid #b7b7b7;
     line-height: 70px;
-    outline: 1px solid green;
+    /* outline: 1px solid green; */
     overflow: hidden;
 }
 
@@ -137,7 +141,7 @@ section {
 
 
 #main_visual img {
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
     width: 100%;
     height: 700px;
     margin: 0 auto;
