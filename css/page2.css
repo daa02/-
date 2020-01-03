@@ -18,10 +18,10 @@
     overflow: hidden;
 }
 #info ul li {
-    margin-top: 20px;
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
     float: left;
     width: 360px; height: 360px;
     background: #ccc;
@@ -31,4 +31,18 @@
     width: 360px;
     display: block;
 }
- 
+#info span {
+    border-bottom: 3px solid #959595;
+    height: 4px;
+    width: 50px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+/* 메뉴 아이콘 마우스 접근시 1.1배 크기 증가 효과 */
+  #info ul > li {
+    margin-left: 10px;
+}
+  
+#info ul > li:hover{
+    transform: scale( 1.1 );
+}
