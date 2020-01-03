@@ -1,4 +1,13 @@
 /* page3.css */
+#main_visual img {
+    /* outline: 1px solid red; */
+    min-width: 100%;
+    height: 400px;
+    margin: 0 auto;
+    margin-bottom: 74px;
+}
+
+
 #info h2 {
     padding: 20px 0;
 }
@@ -16,6 +25,7 @@
     width: 1200px;
     margin: 0 auto;
     overflow: hidden;
+    position: relative;
 }
 #info ul li {
     margin-top: 10px;
@@ -27,22 +37,59 @@
     background: #ccc;
     overflow: hidden;
     }
+
+#info ul li p{
+    font-size: 1.6em;
+    position: absolute;
+    /* outline: 1px solid red; */
+    color: #ffffff;
+    font-weight: bold;
+}
+/* 글자위치맞췩 */
+
+.info_1{
+    left: 230px;
+    bottom: 410px;
+}
+.info_2{
+    left: 680px;
+    bottom: 410px;
+}
+.info_3{
+    left: 1060px;
+    bottom: 410px;
+}
+.info_4{
+    left: 300px;
+    bottom: 40px;
+}
+.info_5{
+    left: 680px;
+    bottom: 40px;
+}
+.info_6{
+    left: 960px;
+    bottom: 40px;
+}
+
+
 #info ul li img {
     width: 360px;
     display: block;
 }
-#info span {
+#info .container .line {
+    display: block;
     border-bottom: 3px solid #959595;
-    height: 4px;
     width: 50px;
     margin: 0 auto;
     margin-bottom: 50px;
+   
 }
 /* 메뉴 아이콘 마우스 접근시 1.1배 크기 증가 효과 */
   #info ul > li {
     margin-left: 10px;
 }
   
-#info ul > li:hover{
+#info ul > li:hover img{
     transform: scale( 1.1 );
 }

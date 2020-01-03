@@ -1,4 +1,16 @@
 /* page2.css */
+
+#main_visual img {
+    /* outline: 1px solid red; */
+    min-width: 100%;
+    height: 400px;
+    margin: 0 auto;
+    margin-bottom: 74px;
+}
+
+
+
+
 #comapany {
 position: relative;
 float: right;
