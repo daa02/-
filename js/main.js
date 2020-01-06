@@ -37,10 +37,10 @@ $(function(){
         slidesPerView: 'auto',
         loop: true,
         coverflowEffect: {
-          rotate: 50,
-          stretch: 0,
-          depth: 100,
-          modifier: 1,
+          rotate: 35,
+          stretch: -90,
+          depth:100,
+          modifier: 0.8,
           slideShadows : true,
         },
         pagination: {
