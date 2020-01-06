@@ -145,16 +145,27 @@ margin-bottom: 40px;
 #sub_banner{
     margin-top: 180px;
     margin-bottom: 105px;
-    background: #ccc;
-    max-width: 1920px;
-    height: 350px;
-    min-width: 1200px;
+    /* background: #ccc; */
+    width: 100%;
+    
+    /* max-width: 1920px;
+    min-width: 1200px; */
+    /* height: 350px; */
     text-align: center;
     background-repeat: no-repeat;
     color: #fff;
+    /* background-image: url(../images/index_sub_banner.jpg);
+    background-position: center;
+    background-size: cover; */
+}
+.sub_banner_img{
+    margin: 0 auto;
+    max-width: 1920px;
+    min-width: 1200px;
     background-image: url(../images/index_sub_banner.jpg);
     background-position: center;
     background-size: cover;
+    height: 350px;
 }
 
 #sub_banner h2{
