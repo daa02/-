@@ -82,31 +82,32 @@ section {
     background-image: url('../images/logo_w.png');
     background-position: center;
     background-size: cover;
-    width: 220px;
+    width: 15%;
     height: auto;
     
     
 }
 #main_header #main_gnb {
     float: right;
+    width: 85%;
 }
  
 #main_header #main_gnb .depth1>li {
     display: inline-block;
-    padding-right: 80px;
+    /* padding-right: 80px; */
     font-size: 18px;
     font-weight: bold;
     position: relative;
     float: left;
     z-index: 99;
-    /* width: 10.999%; */
-    text-align: center;
+    width: 20%;
+    text-align: right;
 }
 #main_header #main_gnb .depth1>li:last-child{
     padding-right: 0;
 }
 #main_gnb>.depth1 {
-    /* width: 1200px; */
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -187,7 +188,15 @@ address {
 
 #main_footer h1 {
     float: left;
+    margin-top: 20px;
     padding: 50px 0;
+    text-indent: -9999px;
+    background-image: url(../images/footer_logo.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 110px;
+    height: auto;
 }
 
 #main_footer .f_info {

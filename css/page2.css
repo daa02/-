@@ -1,12 +1,19 @@
 /* page3.css */
-#main_visual img {
+#main_visual {
     /* outline: 1px solid red; */
+    background-image: url('../images/2page_main_banner.jpg');
+    background-size: cover;
+    background-position: center; 
     min-width: 100%;
     height: 400px;
     margin: 0 auto;
     margin-bottom: 74px;
 }
 
+#info_box{
+    width: 1140px;
+    margin: 0 auto;
+}
 
 #info h2 {
     padding: 20px 0;
@@ -76,6 +83,7 @@
 #info ul li img {
     width: 360px;
     display: block;
+    transition: .4s;
 }
 #info .container .line {
     display: block;
@@ -91,5 +99,5 @@
 }
   
 #info ul > li:hover img{
-    transform: scale( 1.1 );
+    transform: scale( 1.2 );
 }

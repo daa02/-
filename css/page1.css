@@ -1,14 +1,19 @@
 /* page2.css */
 
-#main_visual img {
+#main_visual {
     /* outline: 1px solid red; */
-    min-width: 100%;
+    background-image: url('../images/1page_main_banner.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
     height: 400px;
     margin: 0 auto;
     margin-bottom: 74px;
 }
 
-
+#company .sub_banner{
+    padding: 20px 0;
+}
 
 
 #comapany {
@@ -16,10 +21,15 @@ position: relative;
 float: right;
 }
 
+#company b{
+    font-size: xx-large;
+}
 #company .container .p_logo {
     width: 400px;
     margin-left: calc(50% - 200px);
+    padding: 20px 0;
 }
+
 
 #company_intro1 {
     width: 100%;
@@ -28,22 +38,23 @@ float: right;
     margin-top: 20px;
     
 }
-#company_intro1 a {
+#company_intro1 p {
     float: right;
     width: 600px; height: 300px;
     margin-right: 20px;
-    margin-top: 30px;
+    /* margin-top: 30px; */
     text-align: left;
     }
 
-#comaplay_intro2  {
+#company_intro2  {
     float: right;
-       
+    padding: 20px 0;
 }
 
-#company_intro2 a {
+#company_intro2 p {
     float: left;
-    width: 680px; height: 300px;    margin-left: 20px;
+    width: 680px; height: 300px;    
+    margin-right: 20px;
     margin-top: 20px;
 }
 
@@ -52,7 +63,7 @@ float: right;
     margin: 0 auto;
     overflow: hidden;
 }
-#company_intro3 a {
+#company_intro3 p {
     float: right;
     width: 600px; height: 300px;
     margin-right: 20px;
