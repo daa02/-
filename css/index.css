@@ -1,12 +1,30 @@
 /* index.css */
 
+#main_visual img {
+    /* outline: 1px solid red; */
+    min-width: 100%;
+    height: 700px;
+    margin: 0 auto;
+    margin-bottom: 74px;
+}
+
 /* contents */
 #contents{
     width: 1200px;
     height: 650px;
-    background: #ccc;
+    /* background: #ccc; */
     margin-top: 40px;
     margin-bottom: 60px;
+}
+
+#contents .logo_title{
+text-align: center;
+padding: 20px 0;
+padding-bottom: 10px;
+}
+
+#contents .logo_title img{
+    width: 380px;
 }
 
 /* left */
@@ -85,7 +103,6 @@
     /* background: #ccc; */
 }
 
-
 /* right */
 #contents .right{
     width: 600px;
@@ -106,15 +123,15 @@
 
 /* sub_banner */
 #sub_banner{
-    margin-top: 70px;
-    margin-bottom: 35px;
+    margin-top: 180px;
+    margin-bottom: 105px;
     background: #ccc;
-    width: 1280px;
+    width: 1920px;
     height: 350px;
     text-align: center;
     background-repeat: no-repeat;
     color: #fff;
-    background-image: url(../images/sub_banner04.jpg);
+    background-image: url(../images/index_sub_banner.jpg);
 }
 
 #sub_banner h2{
@@ -140,20 +157,14 @@
     overflow: hidden;
 }
 #contents .left li:nth-child(2){
-    /* background-image: url(../images/section_02.jpg); */
-    /* overflow: hidden; */
-    background: #f9b4ab;
-    /* background: #fac545; */
+    background: #fac545;
 }
 #contents .left li:nth-child(3){
     background-image: url(../images/section_03.jpg);
     overflow: hidden;
 }
 #contents .right li:nth-child(1){
-    /* background-image: url(../images/section_04.jpg); */
-    /* overflow: hidden; */
-    background: #679186;
-    /* background: #47a0dc; */
+    background: #47a0dc;
 }
 #contents .right li:nth-child(2){
     background-image: url(../images/section_05.jpg);
@@ -169,11 +180,48 @@
     width: 1200px;
     padding-top: 80px;
     padding-bottom: 80px;
+    margin-bottom: 180px;
+    position: relative;
   }
   .swiper-slide {
     background-position: center;
     background-size: cover;
-    width: 300px;
-    height: 411px;
+    width: 200px;
+    height: 311px;
   }
+  .swiper-container h2{
+      width: 1200px;
+      text-align: center;
+      padding-bottom: 20px;
+  }
+
+.swiper-wrapper h3{
+    font-size: 17px;
+    position: absolute;
+    bottom: 37px;
+    margin: 0 10px;
+    padding: 2px 13px;
+    background: #47a0dcbd;
+    /* color: #47a0dc; */
+}
+
+.swiper-wrapper p{
+    font-weight: bold;
+    position: absolute;
+    bottom: 12px;
+    /* left: 10px; */
+    margin: 0 10px;
+    padding: 0.7px 13px;
+    background: rgba(255, 255, 255, 0.767);
+
+}
+
+.line{
+    display: block;
+    border-bottom: 3px solid #959595;
+    width: 50px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+    
+}
 
