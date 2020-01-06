@@ -56,11 +56,18 @@ section {
 }
 
 .header_wrap.show{
-    background: #fac445;
+    background: #fff;
 }
+
 .header_wrap.nav_bg{
-    background: #fac445;
-  }
+    background: #fff;
+    /* color: #222; */
+}
+
+#main_logo.nav_bg{
+    background-image: url('../images/logo.png');
+}
+
 #main_header {
     width: 1200px;
     margin: 0 auto;
@@ -70,16 +77,23 @@ section {
 }
 
 #main_header h1 {
+    text-indent: -999px;
     float: left;
+    background-image: url('../images/logo_w.png');
+    background-position: center;
+    background-size: cover;
+    width: 220px;
+    height: auto;
+    
+    
 }
-
 #main_header #main_gnb {
     float: right;
 }
  
 #main_header #main_gnb .depth1>li {
     display: inline-block;
-    padding-right: 100px;
+    padding-right: 80px;
     font-size: 18px;
     font-weight: bold;
     position: relative;
@@ -141,18 +155,20 @@ section {
 #main_gnb .depth1>li a{
     color: #fff;
 }
-#main_gnb .depth2>li a{
+
+
+.header_wrap.nav_bg #main_gnb .depth1>li a{
+    color: #47a0dc;
+}
+.header_wrap.nav_bg #main_gnb .depth1>li a:hover{
+    color:#fac445;
+}
+.header_wrap.nav_bg #main_gnb .depth2>li a{
     color: #222;
 }
-
-#main_gnb .depth1>li a:hover{
-    color:#47a0dc;
+.header_wrap.nav_bg #main_gnb .depth2>li a:hover{
+    color: #47a0dc;
 }
-/* #main_gnb .depth2>li a:hover{
-    color: #fac445;
-} */
-
-
 /* footer */
 
 address {
@@ -176,7 +192,7 @@ address {
 
 #main_footer .f_info {
     float: left;
-    margin-left: 150px;
+    margin-left: 11%;
     font-size: small;
     color: #fff;
     padding: 30px 0;

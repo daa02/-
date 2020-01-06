@@ -8,6 +8,8 @@ $(function () {
         $('.depth2').addClass('show');
         $('.depth2_bg').addClass('show');
         $('.header_wrap').addClass('show');
+        $('.header_wrap').addClass('nav_bg');
+        $('#main_logo').addClass('nav_bg');
     });
 
     // 마우스가 나가면 메뉴 닫힘
@@ -15,6 +17,8 @@ $(function () {
         $('.depth2').removeClass('show');
         $('.depth2_bg').removeClass('show');
         $('.header_wrap').removeClass('show');
+        $('.header_wrap').removeClass('nav_bg');
+        $('#main_logo').removeClass('nav_bg');
     });
 
 });
@@ -24,8 +28,10 @@ $(function(){
     $(window).scroll(function() {
       if ($(this).scrollTop()) {
         $('.header_wrap').addClass('nav_bg');
+        $('#main_logo').addClass('nav_bg');
       } else {
         $('.header_wrap').removeClass('nav_bg');
+        $('#main_logo').removeClass('nav_bg');
       }
     });  
 
