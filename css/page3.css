@@ -29,6 +29,10 @@
     padding-bottom: 180px;
 }
 
+.map_info .info_box:first-child{
+    padding-bottom: 63px;
+}
+
 .map_info .info_box:nth-child(2){
     margin: 50px 4.7%;
 }
