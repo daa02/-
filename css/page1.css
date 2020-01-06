@@ -16,6 +16,11 @@ position: relative;
 float: right;
 }
 
+#company .container .p_logo {
+    width: 400px;
+    margin-left: calc(50% - 200px);
+}
+
 #company_intro1 {
     width: 100%;
     margin: 0 auto;
@@ -52,5 +57,6 @@ float: right;
     width: 600px; height: 300px;
     margin-right: 20px;
     margin-top: 20px;
+    margin-bottom: 180px;
     }
 
