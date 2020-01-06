@@ -117,8 +117,8 @@ section {
     left: 0;
     width: 100%;
     min-height: 0px;
-    /* background: #fac445dc; */
-    background: rgba(255, 255, 255, .8);
+    background: #fff;
+/*     background: rgba(255, 255, 255, .8); */
     transition: 0.4s;
 }
 .depth2_bg.show {
