@@ -17,8 +17,8 @@ $(function () {
         $('.depth2').removeClass('show');
         $('.depth2_bg').removeClass('show');
         $('.header_wrap').removeClass('show');
-        $('.header_wrap').removeClass('nav_bg');
-        $('#main_logo').removeClass('nav_bg');
+        // $('.header_wrap').removeClass('nav_bg');
+        // $('#main_logo').removeClass('nav_bg');
     });
 
 });
