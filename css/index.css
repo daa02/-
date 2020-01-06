@@ -19,8 +19,7 @@
 
 #contents .logo_title{
 text-align: center;
-padding: 20px 0;
-padding-bottom: 10px;
+margin-bottom: 40px;
 }
 
 #contents .logo_title img{
@@ -30,6 +29,7 @@ padding-bottom: 10px;
 /* left */
 #contents{
     position: relative;
+    padding-bottom: 230px;
 }
 #contents .left{
     width: 600px;
@@ -48,7 +48,6 @@ padding-bottom: 10px;
     height: 404px;
 }
 #contents h2{
-    /* color: #fff; */
     margin: 30px 0 5px 35px;
     font-size: 1.7em;
 }
@@ -82,7 +81,6 @@ padding-bottom: 10px;
 
 #contents .btn{
     position: absolute;
-    /* color: #fff; */
     right: 635px;
     bottom: 20px;
     font-size: 2.2em;
@@ -100,7 +98,6 @@ padding-bottom: 10px;
 #contents .accept:hover{
     color: #47a0dc;
     border: 2px solid #47a0dc;
-    /* background: #ccc; */
 }
 
 /* right */
@@ -112,7 +109,6 @@ padding-bottom: 10px;
 }
 #contents .right li{
     float: left;
-    /* outline: 1px solid red; */
     width: 300px;
     height: 246px;
 }
@@ -120,7 +116,30 @@ padding-bottom: 10px;
     width: 600px;
     height: 404px;
 }
+/* 콘텐츠 */
+#contents .left li:nth-child(1){
+    background-image: url(../images/section_01.jpg);
+    overflow: hidden;
+}
+#contents .left li:nth-child(2){
+    background: #fac545;
+}
+#contents .left li:nth-child(3){
+    background-image: url(../images/section_03.jpg);
+    overflow: hidden;
+}
+#contents .right li:nth-child(1){
+    background: #47a0dc;
+}
+#contents .right li:nth-child(2){
+    background-image: url(../images/section_05.jpg);
+    overflow: hidden;
+}
+#contents .right li:nth-child(3){
+    background-image: url(../images/section_06.jpg);
+    overflow: hidden;
 
+}
 /* sub_banner */
 #sub_banner{
     margin-top: 180px;
@@ -151,30 +170,7 @@ padding-bottom: 10px;
     background: rgba(58, 58, 58, 0.466);
 }
 
-/* 콘텐츠 */
-#contents .left li:nth-child(1){
-    background-image: url(../images/section_01.jpg);
-    overflow: hidden;
-}
-#contents .left li:nth-child(2){
-    background: #fac545;
-}
-#contents .left li:nth-child(3){
-    background-image: url(../images/section_03.jpg);
-    overflow: hidden;
-}
-#contents .right li:nth-child(1){
-    background: #47a0dc;
-}
-#contents .right li:nth-child(2){
-    background-image: url(../images/section_05.jpg);
-    overflow: hidden;
-}
-#contents .right li:nth-child(3){
-    background-image: url(../images/section_06.jpg);
-    overflow: hidden;
 
-}
 
 .swiper-container {
     width: 1200px;
@@ -201,15 +197,13 @@ padding-bottom: 10px;
     bottom: 37px;
     margin: 0 10px;
     padding: 2px 13px;
-    background: #47a0dcbd;
-    /* color: #47a0dc; */
+    background: #fac445dc;
 }
 
 .swiper-wrapper p{
     font-weight: bold;
     position: absolute;
     bottom: 12px;
-    /* left: 10px; */
     margin: 0 10px;
     padding: 0.7px 13px;
     background: rgba(255, 255, 255, 0.767);
